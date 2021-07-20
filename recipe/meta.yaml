@@ -1,5 +1,5 @@
 {% set name = "py3Dmol" %}
-{% set version = "0.9.1" %}
+{% set version = "0.9.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: efa3433b3f0b9e66b9f743be3a49828c65c083ce2d17d0f33475e4cd5ec553ba
+  sha256: 755c79f744b34107f7b2001733eafa28d490439e3162ce6ced2b864b6eecbe80
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -31,7 +31,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Jupyter widget to embed an interactive 3Dmol.js viewer in a notebook'
+  summary: Jupyter widget to embed an interactive 3Dmol.js viewer in a notebook
 
 extra:
   recipe-maintainers:
