@@ -1,5 +1,5 @@
 {% set name = "py3Dmol" %}
-{% set version = "2.0.0.post2" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a280285f23bf4216c4b957f91680bb69f112ca7b0173c53ee291409481ddb103
+  sha256: aea726180e9ff90e646134d59257379f59ef61f1c68474fdca3a4a8a31e68c36
 
 build:
   noarch: python
