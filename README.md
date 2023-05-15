@@ -1,11 +1,11 @@
-About py3dmol
-=============
+About py3dmol-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py3dmol-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/3dmol/3Dmol.js/tree/master/py3Dmol
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py3dmol-feedstock/blob/main/LICENSE.txt)
 
 Summary: Jupyter widget to embed an interactive 3Dmol.js viewer in a notebook
 
