@@ -1,13 +1,13 @@
 {% set name = "py3Dmol" %}
-{% set version = "2.5.5" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
-  sha256: cb102cc3370800a9ca7679774759f008e34a0f3a283778d85b0410849d370298
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
+  sha256: 88e3dcff0913ef9a805905ff5913d0b4f64bd7c5ad128213ebe67a437c707854
 
 build:
   noarch: python
